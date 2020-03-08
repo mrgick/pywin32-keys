@@ -22,3 +22,7 @@ if __name__=="__main__":
     print("Please press the button:")
     name_of_key=check_key_pressed()
     print("You pressed: "+ name_of_key + ", id virtual key is: "+ str(give_vk_id(name_of_key)))
+    sleep(1) # if you want use it (check_key_pressed) again, you need to wait sometime)
+    print("Please press the button:")
+    name_of_key=check_key_pressed()
+    print("You pressed: "+ name_of_key + ", id virtual key is: "+ str(give_vk_id(name_of_key)))
